@@ -1,0 +1,7 @@
+<div class="ratio-save">
+  <div class="croper" [ngStyle]="{'background-image': 'url('+ item.avatar_url +')'}"></div>
+</div>
+<div class="description">
+  <div class="title">{{item.login}}</div>
+  <div class="btn" (click)="readMore(item)">read more</div>
+</div>
